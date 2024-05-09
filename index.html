@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- Box Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Swiper's CSS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@11.1.1/swiper-bundle.min.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -37,25 +39,110 @@
 
         <!-- Cart Box -->
         <div class="cart">
-            <img src="img/new1.png" alt="">
-            <div class="text">
-                <h3>T-Shirt 14A</h3>
-                <span>$50.05</span>
-                <span>1x</span>
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="text">
+                    <h3>T-Shirt 14A</h3>
+                    <span>$50.05</span>
+                    <span>1x</span>
+                </div>
+                <i class="bx bxs-trash-alt"></i>
             </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="img/new2.jpg" alt="">
+                <div class="text">
+                    <h3>T-Shirt 14A</h3>
+                    <span>$50.05</span>
+                    <span>1x</span>
+                </div>
+                <i class="bx bxs-trash-alt"></i>
+            </div>
+
+            <h2>Total: $100.10</h2>
+            <a href="#" class="btn">Checkout</a>
+
         </div>
 
+
+        <!-- User -->
+        <div class="user">
+            <h2>Login </h2>
+            <input type="email" name="email" id="email" placeholder="Your Email...">
+            <input type="password" name="" id="" placeholder="Password">
+            <input type="submit" value="Login" class="login-btn">
+            <P>Forget Password <a href="#">Reset Now</a></P>
+            <P>Don't have account <a href="#">Create One</a></P>
+        </div>
 
 
     </header>
 
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Shop Now</span>
+            <h1>New Arrival of <br>Fresh Products</h1>
+            <a href="" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- New Arrival -->
+    <section class="new" id="new">
+        <div class="heading">
+            <h1>New <span>Arrival</span></h1>
+        </div>
+        <div class="swiper new-arrival">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/new1.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/new2.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/new3.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/new4.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/new5.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/new6.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
-
-
-
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@11.1.1/swiper-bundle.min.js"></script>
     <!-- Link to JS -->
     <script src="main.js"></script>
 </body>
